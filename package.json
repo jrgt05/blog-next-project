@@ -2,6 +2,9 @@
   "name": "blog-next",
   "version": "0.1.0",
   "private": true,
+  "workspaces":{
+    "nohoist": ["next"]
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
